@@ -35,7 +35,7 @@ FactoryBot.define do
     "expired_at#{n}@test.com"
   end
 
-  sequence :string do |n|
+  sequence :string do |n|      # session_controller_test
     "password#{n}@test.com"
   end
 end
