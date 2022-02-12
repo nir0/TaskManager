@@ -15,3 +15,8 @@ require('channels');
 // const imagePath = (name) => images(name, true)
 
 import 'material-design-lite/material.js';
+
+import WebpackerReact from 'webpacker-react';
+import TaskBoard from './components/TaskBoard';
+
+WebpackerReact.setup({ TaskBoard });
